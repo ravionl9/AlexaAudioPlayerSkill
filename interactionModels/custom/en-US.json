@@ -1,0 +1,102 @@
+{
+  "interactionModel": {
+      "languageModel": {
+          "invocationName": "sahaja radio",
+          "modelConfiguration": {
+              "fallbackIntentSensitivity": {
+                  "level": "LOW"
+              }
+          },
+          "intents": [
+              {
+                  "name": "AMAZON.NavigateHomeIntent",
+                  "samples": []
+              },
+              {
+                  "name": "AMAZON.PauseIntent",
+                  "samples": []
+              },
+              {
+                  "name": "AMAZON.ResumeIntent",
+                  "samples": []
+              },
+              {
+                  "name": "AMAZON.StopIntent",
+                  "samples": []
+              },
+              {
+                  "name": "AMAZON.CancelIntent",
+                  "samples": []
+              },
+              {
+                  "name": "AMAZON.LoopOnIntent",
+                  "samples": []
+              },
+              {
+                  "name": "AMAZON.NextIntent",
+                  "samples": []
+              },
+              {
+                  "name": "AMAZON.PreviousIntent",
+                  "samples": []
+              },
+              {
+                  "name": "AMAZON.RepeatIntent",
+                  "samples": []
+              },
+              {
+                  "name": "AMAZON.ShuffleOnIntent",
+                  "samples": []
+              },
+              {
+                  "name": "AMAZON.StartOverIntent",
+                  "samples": []
+              },
+              {
+                  "name": "AMAZON.LoopOffIntent",
+                  "samples": []
+              },
+              {
+                  "name": "AMAZON.ShuffleOffIntent",
+                  "samples": []
+              },
+              {
+                  "name": "AMAZON.HelpIntent",
+                  "samples": [
+                      "help me",
+                      "how does this work",
+                      "what should i do"
+                  ]
+              },
+              {
+                  "name": "AMAZON.FallbackIntent",
+                  "samples": []
+              },
+              {
+                  "name": "PlayAudioIntent",
+                  "slots": [],
+                  "samples": [
+                      "play sahaja yoga songs"
+                  ]
+              },
+              {
+                  "name": "AboutIntent",
+                  "slots": [],
+                  "samples": [
+                      "about",
+                      "what is this",
+                      "tell me about this"
+                  ]
+              },
+              {
+                  "name": "MatajiTalks",
+                  "slots": [],
+                  "samples": [
+                      "play shri mataji talks"
+                  ]
+              }
+          ],
+          "types": []
+      }
+  }
+}
